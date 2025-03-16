@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: fivetran
+    description: "connecting with fivetran"
+    database: FIVETRAN_DATABASE
+    schema: GOOGLE_SHEETS
+    tables:
+      -name: EMP
